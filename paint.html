@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="Trevor.Brent" content="Tutorial"/>
+    <title>Paint</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="main.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body class="body_paint">
+    <div id="menu-dropdown" class="dropdown-content">
+      <li><a href="clean.html">PREP</a></li>
+      <li><a href="prime.html">PRIME</a></li>
+      <li><a href="paint.html">PAINT</a></li>
+      <li><a href="wash.html">WASH</a></li>
+      <li><a href="drybrushpainting.html">DRY BRUSH</a></li>
+    </div>
+
+    <nav class="nav">
+         <div class="grey nav-wrapper">
+           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
+             <ul class="hide-menu">
+               <li><a href="index.html">HOME</a></li>
+               <li><a href="contact.html">CONTACT</a></li>
+               <li><a href="about.html">ABOUT</a></li>
+               <li><a href="gallery.html">GALLERY</a></li>
+               <li><a href="purchase.html">BUY NOW</a></li>
+               <li><a class="dropdown-trigger" href="#!" data-target="menu-dropdown">GUIDE<i class="material-icons right">arrow_drop_down</i></a></li>
+             </ul>
+         </div>
+       </nav>
+
+       <ul class="sidenav" id="mobile-demo">
+         <li><a href="index.html">HOME</a></li>
+         <li><a href="contact.html">CONTACT</a></li>
+         <li><a href="about.html">ABOUT</a></li>
+         <li><a href="gallery.html">GALLERY</a></li>
+         <li><a href="clean.html">PREPERATION</a></li>
+         <li><a href="prime.html">PRIME</a></li>
+         <li><a href="paint.html">PAINT</a></li>
+         <li><a href="wash.html">WASH</a></li>
+         <li><a href="drybrushpainting.html">DRY BRUSH</a></li>
+         <li><a href="purchase.html">BUY NOW</a></li>
+       </ul>
+
+      <div class="header">
+             <h2>PAINT</h2>
+             <h2>PACIFIC PAINTING</h2>
+         </div>
+
+      <div class="youtube-video">
+          <iframe src="https://www.youtube.com/embed/0n4f-VDjOBE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="paint-container">
+      <article>
+        <h3>Blending/Layering</h3>
+            <p> 
+                Blending, also known as "layering" is the technique of fading from one color to another with many gradations color or applying successive layers of the same color in thin coats of paint. 
+            </p>
+            <p>
+                Paint the initial part of the blended area with the initial color. Apply some of the initial color in the area just beside the already painted area, but with a slightly lighter tone. 
+            </p>
+            <p>
+                Blending allows for more smooth trasitions between colors than can be achieved in other ways. This can even be used in place of the paint-wash-drybrush technique for a lower contrast look. Blending is especially useful when painting large areas. For larger areas, drybrushing often can look unnatural because the contrast is too high on the raised areas. 
+            </p>          
+      </article>
+
+      <div>
+      <h3 class="layeringh3">Layering</h3>
+      <img class="layering_img" src="photos/layering.jpg">
+      </div>
+      </div>
+
+    <div class="footer-container">
+            <div class="footer">
+                <a href="facebook.com"><img src="photos/facebook.png" alt="facebook"></a>
+                <a href="instagram.com"><img src="photos/instagram.png" alt="instagram"></a>
+                <a href="twitter.com"><img src="photos/twitter.png" alt="twitter"></a>
+                <a href="youtube.com"><img src="photos/youtube.png" alt="youtube"></a>
+          </div>
+     </div>
+
+     <script type="text/javascript" src="materialize.js"></script>
+     <script type="text/javascript">
+     document.addEventListener('DOMContentLoaded', function() {
+       M.AutoInit();
+
+       // var elems = document.querySelectorAll('.sidenav');
+       // var instances = M.Sidenav.init(elems);
+       //
+       // var dropdowns = document.querySelectorAll('.dropdown-trigger');
+       // M.Dropdown.init(dropdowns);
+     });
+     </script>
+  </body>
+</html>
